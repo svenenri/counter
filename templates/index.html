@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<title>Counter</title>
+	</head>
+	<style>
+		*{
+			margin: 0;
+			padding: 0;
+		}
+		body{
+			display: inline-block;
+			width: 50%;
+			padding: 70px;
+			vertical-align: middle;
+			margin: auto;
+			text-align: center;
+		}
+			body h2{
+				margin-bottom: 20px;
+			}
+	</style>
+	<body>
+		<h2>Counter</h2>
+		<p>{{count}} times</p>
+		<form action="/count" method="post">
+			<input type="submit" name="alt" value="PlusTwo">
+			<input type="submit" name="alt" value="Reset">
+		</form>
+		<form method="get">
+
+		</form>
+	</body>
+</html>
